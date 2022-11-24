@@ -2,8 +2,10 @@ package homeworks;
 
 public class homework1 {
     public static void main(String[] args) {
+        // Запускаем метод рандомного числа и выводим его в консоль
         int i = fill_variable();
         System.out.println("Random number:" + i);
+        // Запускаем метод нахождения номера старшего значащего бита выпавшего числа
         int n = findElderBit(i);
         System.out.println(" The most significant bit number:" + n);
         // Проверяем отрицательное число или положительное. Выбираем какой метод использовать.
