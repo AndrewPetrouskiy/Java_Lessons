@@ -72,21 +72,21 @@ public class hw31 {
         // *Сравнить время работы тысячи повторений пункта 3 для ArrayList и LinkedList.
         // ArrayList
 
-        long start = System.currentTimeMillis();
-        for (int j = 0; j < 100000; j++) {
+        long start = System.nanoTime();
+        for (int j = 0; j < 1000; j++) {
             array1.add(0, "new element");
         }
         System.out.println("It's the time of work ArrayList");
-        System.out.println(System.currentTimeMillis() - start);
+        System.out.println(System.nanoTime() - start);
 
         // LinkedList
-        
+
         LinkedList<String> linkedarray = new LinkedList<>();
-        long start2 = System.currentTimeMillis();
-        for (int j = 0; j < 100000; j++) {
+        long start2 = System.nanoTime();
+        for (int j = 0; j < 1000; j++) {
             linkedarray.add(0, "new element");
         }
         System.out.println("It's the time of work LinkedArray");
-        System.out.println(System.currentTimeMillis() - start2);
+        System.out.println(System.nanoTime() - start2);
     }
 }
