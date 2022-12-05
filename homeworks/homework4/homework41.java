@@ -22,7 +22,7 @@ public class homework41 {
 
         boolean add = true;
         while (add) {
-            System.out.println("Do u want to add the person? Y/N");
+            System.out.println("Do you want to add the person? Y/N");
             Scanner scan = new Scanner(System.in);
             String decision = scan.nextLine();
             if (decision.toUpperCase().equals("N")) {
