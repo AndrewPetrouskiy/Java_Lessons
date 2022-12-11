@@ -44,16 +44,5 @@ public class main {
         }
         System.out.println();
         set.forEach(n -> System.out.print(n + " "));
-
-
-
-
-
-
-
-
-
-
     }
-
 }
